@@ -8,4 +8,11 @@ public class HelloWorldMvcApp {
     public static void main(String[] args) {
         SpringApplication.run(HelloWorldMvcApp.class, args);
     }
+
+    @SpringBootApplication
+    public static class HelloWorldRestApp {
+        public static void main(String[] args) {
+            SpringApplication.run(HelloWorldRestApp.class, args);
+        }
+    }
 }
